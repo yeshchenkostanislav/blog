@@ -1,0 +1,87 @@
+.banner {
+  padding-top: 40px;
+  background: url(img/header-bg.png) no-repeat center/cover;
+
+  &__wrap {
+    align-items: center;
+  }
+
+  &__box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+
+    &-text {
+      position: relative;
+      padding-bottom: 137px;
+      align-self: flex-start;
+      z-index: 1;
+    }
+
+
+    &-photo {
+      position: relative;
+      align-self: flex-end;
+      z-index: 1;
+    }
+  }
+
+  &__title {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  &__btn {
+    margin-top: 43px;
+  }
+
+  &__photo {
+    max-width: 418px;
+    vertical-align: bottom;
+
+  }
+
+  &__roll-big,
+  &__roll-small,
+  &__burger-big,
+  &__burger-small,
+  &__pizza {
+    position: absolute;
+  }
+
+  &__roll-big {
+    left: -72px;
+    bottom: 58px;
+    z-index: 2;
+  }
+
+  &__roll-small {
+    top: -24px;
+    left: 80%;
+    z-index: -1;
+  }
+
+  &__burger-big {
+    left: 517px;
+  }
+
+  &__burger-small {
+    right: 23%;
+    top: -36px;
+    z-index: -1;
+  }
+
+  &__pizza {
+    left: 308px;
+  }
+
+}

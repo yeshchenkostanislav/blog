@@ -1,0 +1,100 @@
+@import "_fonts";
+@import "_mixins";
+@import "_variables";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $base-font;
+  font-size: $base-font-size;
+  font-weight: 400;
+  min-width: 320px;
+  color: $white;
+  background: #f4f6f9;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  transition: $t-time;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+button {
+  font-family: $base-font;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 3px;
+  background-color: $green;
+  font-size: 20px;
+  color: $white;
+  outline: none;
+  transition: $t-time;
+
+  &:hover {
+    cursor: pointer;
+    background: darken($green, 2%);
+  }
+}
+
+.btn_small {
+  width: 260px;
+  height: 36px;
+  font-size: 16px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+.wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 1170px;
+}
+
+@import "icons";
+
+
+
+//page index
+@import "../elements/index/banner/banner";
+@import "../elements/index/block-info/block-info";
+@import "../elements/index/requisition/requisition";
+@import "../elements/index/recipes/recipes";
+@import "../elements/index/share-recipe/share-recipe";
+@import "../elements/index/blog-entries/blog-entries";
+@import "../elements/common-elements/site-development/site-development";
+
+//page rating
+@import "../elements/rating/banner/banner";
+@import "../elements/rating/institution-rating/institution-rating";
+
+// common-elements
+@import "../elements/common-elements/header/header";
+@import "../elements/common-elements/recipes-slider/recipes-slider";
+@import "../elements/common-elements/footer/footer";

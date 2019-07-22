@@ -1,0 +1,24 @@
+.share-recipe {
+  background: url(img/share-recipe-bg.png) no-repeat center/cover;
+  padding-top: 40px;
+
+  &__wrap {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  &__info {
+    padding-bottom: 120px;
+  }
+
+  &__photo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  &__info-title {
+    font-size: 46px;
+  }
+}

@@ -1,0 +1,49 @@
+.dev {
+  background: #191a1c;
+
+  &__wrap {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 60px;
+
+    @media(max-width: 767px) {
+      height: auto;
+      flex-direction: column;
+      padding: 20px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__politics {
+    color: #fff;
+  }
+
+  &__kprod {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    transition: .4s;
+
+    @media(max-width: 767px) {
+      margin-top: 20px;
+    }
+
+    &:hover {
+      text-decoration: none;
+      color: #7387c4;
+
+      .icon-kprod {
+        fill: #7387c4;
+      }
+    }
+  }
+
+  .icon-kprod {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    transition: .4s;
+  }
+}

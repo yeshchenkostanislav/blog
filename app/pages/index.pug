@@ -1,0 +1,17 @@
+doctype html
+html
+    include ../elements/head/head
+    +head('Главная', 'Page description', 'Page keywords')
+    body
+        include ../elements/index/banner/banner
+        include ../elements/index/block-info/block-info
+        include ../elements/index/requisition/requisition
+        include ../elements/index/recipes/recipes
+        include ../elements/index/share-recipe/share-recipe
+        include ../elements/index/blog-entries/blog-entries
+        include ../elements/common-elements/footer/footer
+        include ../elements/common-elements/site-development/site-development
+        
+
+        script(src="js/libs.min.js")
+        script(src="js/custom.js")

@@ -1,0 +1,68 @@
+.footer {
+  padding: 75px 0;
+  background: #282a2e;
+
+  &__wrap {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__link {
+    display: block;
+    color: $white;
+    font-size: 14px;
+    margin-top: 15px;
+
+    &-mail {
+      display: block;
+      margin-top: 15px;
+      text-decoration: underline;
+      color: $white;
+    }
+  }
+
+  &__logo {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  &__descr {
+    margin-top: 13px;
+  }
+
+  &__social-networks {
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+
+  &__title {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  &__partnership-title {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  &__networks-box {
+    width: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__social {
+    @include center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid $white;
+  }
+
+}
+
+.offline-events {
+  margin-top: 35px;
+}

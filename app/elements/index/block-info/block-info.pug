@@ -1,0 +1,187 @@
+.block-info.section
+  ._wrap.wrap
+
+    ._rating
+      ._title Рейтинг заведений Москвы
+      ._subtitle Более сотни заведений в рейтинге
+      ._rating-list
+
+        ._rating-list-title
+          ._rating-list-title-item.first Название заведения
+          ._rating-list-title-item Общая оценка
+          ._rating-list-title-item Народный рейтинг
+          ._rating-list-title-item Обзор и отзывы
+
+        .institutions._rating-list-item
+          img(src="img/alo-pizza.png", alt="alt")._logo
+          ._name 1.Алло! Пицца
+          ._score 100 / 100
+          ._rating
+            ._rating-ctrl
+              ._rating-ctrl-btn
+                ._svg-like
+                  +svg('like')
+                ._rating-ctrl-text 100
+              ._rating-ctrl-btn
+                ._rating-ctrl-text 100
+                ._svg-dislike
+                  +svg('dislike')
+            ._rating-bar
+              ._like-bar
+              ._dislike-bar
+          a(href="#")._view Обзор 
+
+        .institutions._rating-list-item
+          img(src="img/alo-pizza.png", alt="alt")._logo
+          ._name 2.Dominos pizza
+          ._score 95 / 100
+          ._rating
+            ._rating-ctrl
+              ._rating-ctrl-btn
+                ._svg-like
+                  +svg('like')
+                ._rating-ctrl-text 100
+              ._rating-ctrl-btn
+                ._rating-ctrl-text 100
+                ._svg-dislike
+                  +svg('dislike')
+            ._rating-bar
+              ._like-bar
+              ._dislike-bar
+          a(href="#")._view Обзор   
+
+        .institutions._rating-list-item
+          img(src="img/alo-pizza.png", alt="alt")._logo
+          ._name 3.Додо Пицца
+          ._score 95 / 100
+          ._rating
+            ._rating-ctrl
+              ._rating-ctrl-btn
+                ._svg-like
+                  +svg('like')
+                ._rating-ctrl-text 100
+              ._rating-ctrl-btn
+                ._rating-ctrl-text 100
+                  ._svg-dislike
+                    +svg('dislike')
+            ._rating-bar
+              ._like-bar
+              ._dislike-bar
+          a(href="#")._view Обзор   
+
+        .institutions._rating-list-item
+          img(src="img/alo-pizza.png", alt="alt")._logo
+          ._name 4.Отличные суши
+          ._score 95 / 100
+          ._rating
+            ._rating-ctrl
+              ._rating-ctrl-btn
+                ._svg-like
+                  +svg('like')
+                ._rating-ctrl-text 100
+              ._rating-ctrl-btn
+                ._rating-ctrl-text 100
+                ._svg-dislike
+                  +svg('dislike')
+            ._rating-bar
+              ._like-bar
+              ._dislike-bar
+          a(href="#")._view Обзор  
+          
+        .institutions._rating-list-item
+          img(src="img/alo-pizza.png", alt="alt")._logo
+          ._name 5.ТрансПицца
+          ._score 95 / 100
+          ._rating
+            ._rating-ctrl
+              ._rating-ctrl-btn
+                ._svg-like
+                  +svg('like')
+                ._rating-ctrl-text 100
+              ._rating-ctrl-btn
+                ._rating-ctrl-text 100
+                ._svg-dislike
+                  +svg('dislike')
+            ._rating-bar
+              ._like-bar
+              ._dislike-bar
+          a(href="#")._view Обзор   
+      
+        a(href="#", title="title")._rating-full-list-link Смотреть весь рейтинг
+
+
+
+    ._fresh-reviews
+      ._title Свежие обзоры
+      ._subtitle Последние 5 обзоров с канала
+        a(href="#")._subtitle-link Покашеварим
+      ._reviews-list
+        .swiper-container
+          .swiper-wrapper
+          
+            .swiper-slide
+              include ../../common-elements/last-review/last-review
+
+            .swiper-slide
+              .institutions-card
+                ._foto
+                  img(src="img/foto-reviews.png", alt="alt")._img
+                  ._viewer-advice совет зрителя 
+                ._info-box
+                  ._info
+                    ._info-date
+                      +svg('calendar')
+                      ._info-text 21.09.18
+                    ._info-views
+                      +svg('view')
+                      ._info-text 250K
+                    ._info-time
+                      +svg('time')
+                      ._info-text 14:50
+                  ._title Ресторан “Жигули” на арбате <br>с  прекрасной Анной
+                  ._score
+                    ._score-text Общая оценка
+                    ._score-number 75/100
+                  ._overall-impression
+                    ._overall-impression-text Общее впечатление
+                    ._overall-impression-result Хорошее
+                  ._place-ranking
+                    ._place-ranking-text Место в рейтинге
+                    ._place-ranking-result 43
+                  a(href="#").btn._see-review Посмотреть обзор
+
+            .swiper-slide
+              .institutions-card
+                ._foto
+                  img(src="img/foto-reviews.png", alt="alt")._img
+                  ._viewer-advice совет зрителя 
+                ._info-box
+                  ._info
+                    ._info-date
+                      +svg('calendar')
+                      ._info-text 21.09.18
+                    ._info-views
+                      +svg('view')
+                      ._info-text 250K
+                    ._info-time
+                      +svg('time')
+                      ._info-text 14:50
+                  ._title Ресторан “Жигули” на арбате <br>с  прекрасной Анной
+                  ._score
+                    ._score-text Общая оценка
+                    ._score-number 75/100
+                  ._overall-impression
+                    ._overall-impression-text Общее впечатление
+                    ._overall-impression-result Хорошее
+                  ._place-ranking
+                    ._place-ranking-text Место в рейтинге
+                    ._place-ranking-result 43
+                  a(href="#")._see-review Посмотреть обзор
+      
+      .swiper-button-next
+        +svg('arrow-right')
+      .swiper-button-prev    
+        +svg('left-arrow')
+
+
+          

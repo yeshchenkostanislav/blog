@@ -1,0 +1,15 @@
+doctype html
+html
+    include ../elements/head/head
+    +head('Главная', 'Page description', 'Page keywords')
+    body
+        include ../elements/rating/banner/banner
+        include ../elements/rating/institution-rating/institution-rating
+        include ../elements/rating/resipes/resipes
+
+        include ../elements/common-elements/footer/footer
+        include ../elements/common-elements/site-development/site-development
+        
+
+        script(src="js/libs.min.js")
+        script(src="js/custom.js")

@@ -1,0 +1,41 @@
+.header {
+  &__wrap {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: $white;
+  }
+
+  &__logo {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    flex-grow: 1;
+  }
+
+  &__nav {
+    margin-right: 20px;
+
+    &-link {
+      font-size: 16px;
+      letter-spacing: 0.16px;
+      color: $white;
+      padding: 0 17px;
+    }
+  }
+
+  &__btn_small {
+    width: 126px;
+    height: 38px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+}
+
+.header-user {
+  margin-right: 8px;
+}

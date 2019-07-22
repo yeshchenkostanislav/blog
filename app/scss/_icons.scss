@@ -1,0 +1,189 @@
+.icon {
+  display: inline-block;
+
+  // app/elements/index/recipes/icons
+
+
+  &.shape {
+    background: url(img/icons/shape.png);
+    width: 10px;
+    height: 10px;
+  }
+
+  &.author-photo {
+    background: url(img/icons/author-photo.png);
+    width: 40px;
+    height: 40px;
+  }
+
+
+  // app/elements/common-elements/header/icons-svg
+  &-user {
+    width: 16px;
+    height: 16px;
+    fill: #fff;
+  }
+
+  //app/elements/index/recipes/svg-icons
+
+  &-star_full {
+    width: 13px;
+    height: 13px;
+    fill: #ffc000;
+  }
+
+  &-right-arrow {
+    width: 11px;
+    height: 11px;
+    transition: $t-time;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  //app/elements/common-elements/footer/icons-svg
+  &-vk {
+    width: 17px;
+    height: 11px;
+    fill: #fff;
+  }
+
+  &-ig {
+    width: 14px;
+    height: 14px;
+    fill: #fff;
+  }
+
+  &-tg {
+    width: 15px;
+    height: 15px;
+    fill: #fff;
+  }
+
+  &-youtube {
+    width: 16px;
+    height: 14px;
+    fill: #fff;
+  }
+
+  //app/elements/index/block-info/svg-icons
+  &-like {
+    width: 15px;
+    height: 15px;
+    fill: #2aa300;
+  }
+
+  &-dislike {
+    width: 15px;
+    height: 15px;
+    fill: red;
+  }
+
+  &-left-arrow {
+    width: 21px;
+    height: 26px;
+    fill: #c3c3c3;
+  }
+
+  &-arrow-right {
+    width: 21px;
+    height: 26px;
+    fill: #c3c3c3;
+  }
+
+  // app/elements/index/block-info/svg-icons
+  &-calendar {
+    width: 13px;
+    height: 13px;
+    fill: #d4d4d4;
+  }
+
+  &-view {
+    width: 20px;
+    height: 15px;
+    fill: #d4d4d4;
+  }
+
+  &-shape {
+    width: 10px;
+    height: 12px;
+    fill: #d4d4d4;
+    transform: rotate(87deg);
+  }
+
+  &-time {
+    width: 13px;
+    height: 13px;
+    fill: #d4d4d4;
+  }
+
+  //app/elements/index/recipes/svg-icons
+  &-diet {
+    width: 40px;
+    height: 40px;
+    fill: #66b04c;
+  }
+
+  &-salad {
+    width: 40px;
+    height: 40px;
+    fill: #66b04c;
+  }
+
+  &-mushroom {
+    width: 40px;
+    height: 40px;
+    fill: #66b04c;
+  }
+
+  &-cake {
+    width: 40px;
+    height: 40px;
+    fill: #66b04c;
+  }
+
+  &-breakfast {
+    width: 40px;
+    height: 40px;
+    fill: #66b04c;
+  }
+
+  &-pancakes {
+    width: 40px;
+    height: 40px;
+    fill: #66b04c;
+  }
+
+  &-meat {
+    width: 40px;
+    height: 40px;
+    fill: #66b04c;
+  }
+
+  &-fast-food {
+    width: 40px;
+    height: 40px;
+    fill: #66b04c;
+  }
+
+  &-grill {
+    width: 40px;
+    height: 40px;
+    fill: #66b04c;
+  }
+
+  &-heart {
+    width: 20px;
+    height: 21px;
+    fill: #fff;
+    stroke: #fff;
+  }
+
+  &-search {
+    width: 13px;
+    height: 14px;
+    fill: #dfdfdf;
+
+  }
+}

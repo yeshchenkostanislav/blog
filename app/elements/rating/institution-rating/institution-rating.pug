@@ -1,0 +1,126 @@
+.institution-rating.section
+  ._wrap.wrap
+    ._institution
+      ._title Рейтинг заведений
+      ._header
+        ._search
+          ._search-icon
+            +svg('search')
+          input(type="text" placeholder="Поиск по заведениям")._search-input
+        ._elements-checkbox-item  
+          input(type="checkbox" id="cb1")._elements-checkbox-input
+          label(for="cb1")._elements-checkbox-label Народный рейтинг
+        ._elements-checkbox-item    
+          input(type="checkbox" id="cb2")._elements-checkbox-input
+          label(for="cb2")._elements-checkbox-label Доставки
+        ._elements-checkbox-item  
+          input(type="checkbox" id="cb3")._elements-checkbox-input
+          label(for="cb3")._elements-checkbox-label Выездные заведения
+
+      .block-info.block-info-new
+        ._rating-list
+          ._rating-list-title.rating-list-title
+            ._rating-list-title-item.first Название заведения
+            ._rating-list-title-item Общая оценка
+            ._rating-list-title-item Народный рейтинг
+            ._rating-list-title-item Обзор и отзывы
+
+          .institutions._rating-list-item
+            img(src="img/alo-pizza.png", alt="alt")._logo
+            ._name 1.Алло! Пицца
+            ._score 100 / 100
+            ._rating
+              ._rating-ctrl
+                ._rating-ctrl-btn
+                  ._svg-like
+                    +svg('like')
+                  ._rating-ctrl-text 100
+                ._rating-ctrl-btn
+                  ._rating-ctrl-text 100
+                  ._svg-dislike
+                    +svg('dislike')
+              ._rating-bar
+                ._like-bar
+                ._dislike-bar
+            a(href="#")._view Подробнее 
+
+          .institutions._rating-list-item
+            img(src="img/alo-pizza.png", alt="alt")._logo
+            ._name 2.Dominos pizza
+            ._score 95 / 100
+            ._rating
+              ._rating-ctrl
+                ._rating-ctrl-btn
+                  ._svg-like
+                    +svg('like')
+                  ._rating-ctrl-text 100
+                ._rating-ctrl-btn
+                  ._rating-ctrl-text 100
+                  ._svg-dislike
+                    +svg('dislike')
+              ._rating-bar
+                ._like-bar
+                ._dislike-bar
+            a(href="#")._view Подробнее   
+
+          .institutions._rating-list-item
+            img(src="img/alo-pizza.png", alt="alt")._logo
+            ._name 3.Додо Пицца
+            ._score 95 / 100
+            ._rating
+              ._rating-ctrl
+                ._rating-ctrl-btn
+                  ._svg-like
+                    +svg('like')
+                  ._rating-ctrl-text 100
+                ._rating-ctrl-btn
+                  ._rating-ctrl-text 100
+                    ._svg-dislike
+                      +svg('dislike')
+              ._rating-bar
+                ._like-bar
+                ._dislike-bar
+            a(href="#")._view Подробнее   
+
+          .institutions._rating-list-item
+            img(src="img/alo-pizza.png", alt="alt")._logo
+            ._name 4.Отличные суши
+            ._score 95 / 100
+            ._rating
+              ._rating-ctrl
+                ._rating-ctrl-btn
+                  ._svg-like
+                    +svg('like')
+                  ._rating-ctrl-text 100
+                ._rating-ctrl-btn
+                  ._rating-ctrl-text 100
+                  ._svg-dislike
+                    +svg('dislike')
+              ._rating-bar
+                ._like-bar
+                ._dislike-bar
+            a(href="#")._view Подробнее  
+            
+          .institutions._rating-list-item
+            img(src="img/alo-pizza.png", alt="alt")._logo
+            ._name 5.ТрансПицца
+            ._score 95 / 100
+            ._rating
+              ._rating-ctrl
+                ._rating-ctrl-btn
+                  ._svg-like
+                    +svg('like')
+                  ._rating-ctrl-text 100
+                ._rating-ctrl-btn
+                  ._rating-ctrl-text 100
+                  ._svg-dislike
+                    +svg('dislike')
+              ._rating-bar
+                ._like-bar
+                ._dislike-bar
+            a(href="#")._view Подробнее   
+        
+          a(href="#", title="title")._rating-full-list-link Загрузить еще 
+    ._new
+      ._new-title Последний обзор
+      include ../../common-elements/last-review/last-review
